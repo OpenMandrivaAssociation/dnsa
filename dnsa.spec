@@ -8,6 +8,7 @@ URL:		http://www.packetfactory.net/projects/dnsa/
 Source:		%{name}-%{version}-beta.tar.bz2
 BuildRequires:	libpcap-devel
 BuildRequires:	libnet1.1.2-devel
+BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
 DNS Auditing tool
