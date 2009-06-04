@@ -1,13 +1,13 @@
 Summary:	DNS Auditing tool
 Name:		dnsa
 Version:	0.5
-Release:	%mkrel 0.5
+Release:	%mkrel 0.6
 License:	GPL
 Group:		Networking/Other
 URL:		http://www.packetfactory.net/projects/dnsa/
 Source:		%{name}-%{version}-beta.tar.bz2
 BuildRequires:	libpcap-devel
-BuildRequires:	libnet1.1.2-devel
+BuildRequires:	net-devel >= 1.1.3
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
