@@ -26,7 +26,7 @@ touch sources/*
 %build
 cd sources
 
-%configure
+%configure2_5x
 
 %make
 
