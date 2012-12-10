@@ -43,3 +43,42 @@ rm -rf %{buildroot}
 %defattr (-,root,root)
 %doc sources/AUTHORS sources/ChangeLog sources/INSTALL sources/KNOWN_BUGS sources/README sources/TODO docs
 %{_bindir}/dnsa
+
+
+%changelog
+* Sun Aug 22 2010 Funda Wang <fwang@mandriva.org> 0.5-0.6mdv2011.0
++ Revision: 571917
+- use configure2_5x
+
+* Thu Jun 04 2009 Oden Eriksson <oeriksson@mandriva.com> 0.5-0.6mdv2010.0
++ Revision: 382716
+- rebuilt against libnet 1.1.3
+
+* Wed Oct 29 2008 Oden Eriksson <oeriksson@mandriva.com> 0.5-0.5mdv2009.1
++ Revision: 298239
+- rebuilt against libpcap-1.0.0
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.4mdv2008.1-current
++ Revision: 136367
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Dec 22 2006 Oden Eriksson <oeriksson@mandriva.com> 0.5-0.4mdv2007.0
++ Revision: 101644
+- Import dnsa
+
+* Fri Mar 17 2006 Oden Eriksson <oeriksson@mandriva.com> 0.5-0.4mdk
+- rebuilt against libnet1.1.2
+
+* Thu Jul 14 2005 Oden Eriksson <oeriksson@mandriva.com> 0.5-0.3mdk
+- rebuilt against new libpcap-0.9.1 (aka. a "play safe" rebuild)
+
+* Wed May 11 2005 Oden Eriksson <oeriksson@mandriva.com> 0.5-0.2mdk
+- lib64 fixes
+
+* Tue Nov 23 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 0.5-0.1mdk
+- initial mandrake package
+
