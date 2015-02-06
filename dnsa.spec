@@ -1,7 +1,7 @@
 Summary:	DNS Auditing tool
 Name:		dnsa
 Version:	0.5
-Release:	%mkrel 0.6
+Release:	0.7
 License:	GPL
 Group:		Networking/Other
 URL:		http://www.packetfactory.net/projects/dnsa/
