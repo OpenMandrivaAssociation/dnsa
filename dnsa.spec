@@ -4,7 +4,7 @@ Version:	0.5
 Release:	0.7
 License:	GPL
 Group:		Networking/Other
-URL:		http://www.packetfactory.net/projects/dnsa/
+URL:		https://www.packetfactory.net/projects/dnsa/
 Source:		%{name}-%{version}-beta.tar.bz2
 BuildRequires:	libpcap-devel
 BuildRequires:	net-devel >= 1.1.3
