@@ -6,6 +6,11 @@ License:	GPL
 Group:		Networking/Other
 URL:		https://www.packetfactory.net/projects/dnsa/
 Source:		%{name}-%{version}-beta.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libpcap-devel
 BuildRequires:	net-devel >= 1.1.3
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
